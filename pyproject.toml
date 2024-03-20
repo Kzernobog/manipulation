@@ -87,7 +87,8 @@ lxml = ">=4.9.2" # seems to be needed on python 3.11
 mysql-connector-python = ">=8.0.23"
 nbconvert = [
   {platform="darwin", version="7.0.0"},
-  {platform="linux", version="6.4.0"},
+  # {platform="linux", version="6.4.0"},
+  {platform="linux", version="7.0.0"},
 ]
 requests = ">=2.25.1"
 pre-commit = "^3.4.0"
