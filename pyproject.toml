@@ -46,7 +46,7 @@ priority = "explicit"
 [tool.poetry.dependencies]
 python = "<4.0,>=3.10"
 cloudpickle = "2.2.1"  # needs to be pinned for stored files to remain compatible.
-drake = { version = "==0.0.20240302", source = "drake-nightly" }
+drake = { version = "==0.0.20240319", source = "drake-nightly" }
 #drake = ">=1.24.0"
 gradescope-utils = ">=0.4.0"
 mpld3  = ">=0.5.6"
@@ -80,12 +80,12 @@ beautifulsoup4 = ">=4.6.3"
 black = { version = ">=23.*", extras = ["jupyter"] }
 lxml = ">=4.9.2" # seems to be needed on python 3.11
 # Blocked on poetry known issue; see Developers.md
-#matplotlib = [ 
+#matplotlib = [
 #  {platform="darwin", version=">=3.7.0"}, # old versions don't build in XCode
-#  {platform="linux", version="3.5.1"}, # https://github.com/RobotLocomotion/drake/issues/14250 
+#  {platform="linux", version="3.5.1"}, # https://github.com/RobotLocomotion/drake/issues/14250
 #]
 mysql-connector-python = ">=8.0.23"
-nbconvert = [ 
+nbconvert = [
   {platform="darwin", version="7.0.0"},
   {platform="linux", version="6.4.0"},
 ]
